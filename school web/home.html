@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School Website</title>
+    
+    <style type="text/css">
+       
+header {
+    background-color: #802f33ce;
+    color: #aed308;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li:hover{
+    background-color: #1afc06;
+}
+nav li {
+    margin: 0 10px;
+    box-sizing: border-box;
+    box-shadow: #1afc06;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+        
+body{
+        background-color: firebrick ;
+        text-align: center;
+        color: #fff;
+      }    
+      img {
+        height: 375px;
+        width: 300px;
+        border-radius: 15px;
+        border: chartreuse solid;
+        animation: marquee 17s linear infinite;
+      }   
+      
+      .marquee {
+            margin-top: 20px;
+            overflow: show;
+            white-space: nowrap;
+            animation: marquee 50s linear infinite;
+            color:rgb(225, 225, 235);
+            font-family: 'Times New Roman', Times, serif;
+        }
+      
+      @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }    
+
+        @keyframes img {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }    
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            padding: 10px;
+            float: left;
+            color: brown; 
+            background: rgb(199, 218, 28);
+            width:150px;
+            height:55px ;
+            border-radius: 10px;
+        }
+        .logo {
+            height: 20px;
+        }
+    
+    </style>   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo">MS</div>
+    <header>
+        <h1>Welcome to My School</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My School</h2>
+            <p>My school is dedicated to provide quality education to students...</p>
+        </section>
+
+       
+<section><img src="boss.jpg"></section>
+
+<div class ="marquee">
+    Welcome, Please give us a call to find out more about the services we offer. Welcome, Please give us a call to find out more about the services we offer.
+</div> 
+    <footer>
+        <p>&copy; 2024 My School. All rights reserved.</p>
+    </footer>
+    
+    
+    
+
+</body>
+</html>
